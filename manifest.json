@@ -1,0 +1,22 @@
+{
+  "name": "Кофейный котик — Уютная кофейня",
+  "short_name": "Кофейный котик",
+  "description": "Уютная кофейня, где каждая чашка — маленькое счастье. Свежая обжарка и авторские рецепты.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f5ede3",
+  "theme_color": "#6f4e37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/616/616430.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/616/616430.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
