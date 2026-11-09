@@ -433,6 +433,15 @@
     transform: scale(1.15) rotate(-8deg);
   }
 
+  .card-media {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radius);
+    margin-bottom: 16px;
+  }
+
   .menu-card h3 {
     font-size: 1.3rem;
     margin-bottom: 10px;
@@ -873,7 +882,7 @@
     <p class="section-subtitle">Шесть вкусов, которые покорили сердца наших гостей. Каждый рецепт — результат долгих экспериментов и любви к кофе.</p>
     <div class="menu-grid">
       <div class="menu-card">
-        <div class="menu-icon">☕</div>
+        <img class="card-media" src="image/1794215291.png" alt="Капучино с рисунком котика на молочной пене" loading="lazy" />
         <h3>Кот-капучино</h3>
         <p>Классический капучино с нежной пенкой в виде мордочки котика.</p>
         <div class="menu-price">240 ₽</div>
@@ -891,9 +900,9 @@
         <div class="menu-price">310 ₽</div>
       </div>
       <div class="menu-card">
-        <div class="menu-icon">🧋</div>
-        <h3>Карамельный раф</h3>
-        <p>Авторский раф с солёной карамелью и сливками.</p>
+        <img class="card-media" src="image/1794215383.png" alt="Медовый раф со сливочной пеной и мёдом" loading="lazy" />
+        <h3>Медовый раф</h3>
+        <p>Авторский раф с мёдом и сливками.</p>
         <div class="menu-price">320 ₽</div>
       </div>
       <div class="menu-card">
@@ -903,7 +912,7 @@
         <div class="menu-price">280 ₽</div>
       </div>
       <div class="menu-card">
-        <div class="menu-icon">🍵</div>
+        <img class="card-media" src="image/1794215501.png" alt="Матча-латте с рисунком на молочной пене" loading="lazy" />
         <h3>Матча-латте «Хвостик»</h3>
         <p>Японская матча на овсяном молоке с ванильным сиропом.</p>
         <div class="menu-price">330 ₽</div>
