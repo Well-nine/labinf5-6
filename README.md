@@ -41,4 +41,5 @@
 ### Вариант 2: Через Python-сервер
 
 ```bash
-python server.py
+start site.html
+
