@@ -101,8 +101,6 @@ nav { display: flex; align-items: center; justify-content: space-between; paddin
 .menu-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--accent), var(--primary)); transform: scaleX(0); transform-origin: left; transition: transform var(--transition); }
 .menu-card:hover { transform: translateY(-10px); box-shadow: var(--shadow-hover); }
 .menu-card:hover::before { transform: scaleX(1); }
-.menu-icon { font-size: 4rem; margin-bottom: 16px; display: inline-block; transition: transform var(--transition); }
-.menu-card:hover .menu-icon { transform: scale(1.15) rotate(-8deg); }
 .menu-card h3 { font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-dark); }
 .menu-card p { color: var(--text-soft); font-size: 0.95rem; margin-bottom: 16px; min-height: 48px; }
 .menu-price { font-size: 1.4rem; font-weight: 700; color: var(--primary); }
