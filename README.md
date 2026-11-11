@@ -38,11 +38,14 @@
 3. Кликните правой кнопкой по `index.html` → **Open with Live Server**
 4. Сайт откроется в браузере по адресу `http://127.0.0.1:5500/`
 
+https://github.com/Well-nine/labinf5-6/actions/workflows/deploy.yml/badge.svg
+
+
 ### Вариант 2: Через Python-сервер
 
 ```bash
 start site.html
 
-https://github.com/Well-nine/labinf5-6/actions/workflows/deploy.yml/badge.svg
+
 
 
