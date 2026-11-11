@@ -43,3 +43,6 @@
 ```bash
 start site.html
 
+https://github.com/Well-nine/labinf5-6/actions/workflows/deploy.yml/badge.svg
+
+
